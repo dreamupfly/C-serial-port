@@ -1,0 +1,78 @@
+﻿生成启动时间为 2014/10/4 星期六 15:28:29。
+     1>项目“E:\Vs\C++\串口\串口\串口.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>e:\vs\c++\串口\串口\源.cpp(15): error C2143: 语法错误 : 缺少“;”(在“public”的前面)
+     1>e:\vs\c++\串口\串口\源.cpp(16): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\vs\c++\串口\串口\源.cpp(17): error C2065: “RegistryKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(17): error C2146: 语法错误: 缺少“;”(在标识符“_MachineKey”的前面)
+     1>e:\vs\c++\串口\串口\源.cpp(17): error C2065: “_MachineKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(17): error C2065: “null”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(18): error C2065: “RegistryKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(18): error C2146: 语法错误: 缺少“;”(在标识符“_rKey”的前面)
+     1>e:\vs\c++\串口\串口\源.cpp(18): error C2065: “_rKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(18): error C2065: “null”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(19): error C2065: “string”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(19): error C2059: 语法错误:“]”
+     1>e:\vs\c++\串口\串口\源.cpp(21): error C2061: 语法错误: 标识符“RegistryPermission”
+     1>e:\vs\c++\串口\串口\源.cpp(21): error C2018: 未知字符“0x40”
+     1>e:\vs\c++\串口\串口\源.cpp(21): warning C4129: “H”: 不可识别的字符转义序列
+     1>e:\vs\c++\串口\串口\源.cpp(21): warning C4129: “D”: 不可识别的字符转义序列
+     1>e:\vs\c++\串口\串口\源.cpp(21): warning C4129: “S”: 不可识别的字符转义序列
+     1>e:\vs\c++\串口\串口\源.cpp(24): error C2065: “_MachineKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(24): error C2065: “Registry”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(24): error C2228: “.LocalMachine”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\vs\c++\串口\串口\源.cpp(25): error C2065: “_rKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(25): error C2065: “_MachineKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(25): error C2228: “.OpenSubKey”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\vs\c++\串口\串口\源.cpp(25): error C2018: 未知字符“0x40”
+     1>e:\vs\c++\串口\串口\源.cpp(25): warning C4129: “D”: 不可识别的字符转义序列
+     1>e:\vs\c++\串口\串口\源.cpp(25): warning C4129: “S”: 不可识别的字符转义序列
+     1>e:\vs\c++\串口\串口\源.cpp(26): error C2065: “_rKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(26): error C2065: “null”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(28): error C2065: “string”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(28): error C2059: 语法错误:“]”
+     1>e:\vs\c++\串口\串口\源.cpp(29): error C2065: “_valArray”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(29): error C2061: 语法错误: 标识符“string”
+     1>e:\vs\c++\串口\串口\源.cpp(30): error C2065: “valNames”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(30): error C2228: “.Length”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\vs\c++\串口\串口\源.cpp(32): error C2065: “_valArray”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(32): error C2065: “string”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(32): error C2146: 语法错误: 缺少“;”(在标识符“_rKey”的前面)
+     1>e:\vs\c++\串口\串口\源.cpp(32): error C2065: “_rKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(32): error C2228: “.GetValue”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\vs\c++\串口\串口\源.cpp(32): error C2065: “valNames”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(37): error C2317: 在行“23”上开始的“try”块没有 catch 处理程序
+     1>e:\vs\c++\串口\串口\源.cpp(37): error C2065: “finally”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(38): error C2143: 语法错误 : 缺少“}”(在“if”的前面)
+     1>e:\vs\c++\串口\串口\源.cpp(38): error C2143: 语法错误 : 缺少“;”(在“if”的前面)
+     1>e:\vs\c++\串口\串口\源.cpp(38): error C2065: “_MachineKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(38): error C2065: “null”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(40): error C2065: “_MachineKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(40): error C2228: “.Close”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\vs\c++\串口\串口\源.cpp(42): error C2065: “_rKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(42): error C2065: “null”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(44): error C2065: “_rKey”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(44): error C2228: “.Close”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\vs\c++\串口\串口\源.cpp(46): error C2065: “CodeAccessPermission”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(46): error C2228: “.RevertAssert”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\vs\c++\串口\串口\源.cpp(48): error C2065: “_valArray”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(48): error C2065: “null”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(50): error C2065: “_valArray”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(50): error C2061: 语法错误: 标识符“string”
+     1>e:\vs\c++\串口\串口\源.cpp(52): error C2065: “_valArray”: 未声明的标识符
+     1>e:\vs\c++\串口\串口\源.cpp(54): error C2059: 语法错误:“}”
+     1>e:\vs\c++\串口\串口\源.cpp(54): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>已完成生成项目“E:\Vs\C++\串口\串口\串口.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.83
